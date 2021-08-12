@@ -1,2 +1,2 @@
-# 14.TechUpBlog
+# 14.just-tech-news
 Just Tech News
