@@ -45,3 +45,4 @@ Comment.init(
 );
             
     
+model.exports = Comment;
