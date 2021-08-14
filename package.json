@@ -1,0 +1,19 @@
+{
+  "name": "14.techupblog",
+  "version": "1.0.0",
+  "description": "Just Tech News",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanway28/14.TechUpBlog.git"
+  },
+  "author": "SC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanway28/14.TechUpBlog/issues"
+  },
+  "homepage": "https://github.com/seanway28/14.TechUpBlog#readme"
+}
