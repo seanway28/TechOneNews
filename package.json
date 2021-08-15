@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/seanway28/14.TechUpBlog/issues"
   },
-  "homepage": "https://github.com/seanway28/14.TechUpBlog#readme"
+  "homepage": "https://github.com/seanway28/14.TechUpBlog#readme",
+  "dependencies": {
+    "express-handlebars": "^5.3.3"
+  }
 }
