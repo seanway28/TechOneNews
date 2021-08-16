@@ -9,12 +9,13 @@ categories, products and tags.
 
 Created with:
 
-*mysql2
-*JS
-*sequelize
-*express
-*dotnev
-*node modules
+• mysql2
+• JS
+• sequelize
+• express
+• dotnev
+• node modules
+• Heroku (deployment)
 
 
 Table of Contents
@@ -27,4 +28,4 @@ Table of Contents
 
 Installtion
 
-Clone the repo and ensure the npm packages (express. mysql2, dotenv, sequelize, sequelize) are downloaded. Enter "npn start" in your terminal to open the PORT. There is no front end in this project, so it is recommended that you use Insomnia or a similar program. 
+Clone the repo and ensure the npm packages (express. mysql2, dotenv, sequelize, sequelize) are downloaded. Enter "npn start" in your terminal to open the PORT. There is no front end in this project, so it's recommended that you use Insomnia or a similar program. 
