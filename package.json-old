@@ -1,0 +1,31 @@
+{ 
+  
+   "name": "TechUpBlog",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "directories": {
+     "lib": "lib"
+   },
+   "dependencies": {
+     "inquirer": "^8.1.1"
+   },
+   "devDependencies": {
+     "jest": "^27.0.4"
+   },
+   "scripts": {
+        "start": "node index.js",
+         "test": "jest"
+      },
+ 
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/seanway28/14.TechUpBlog.git"
+   },
+   "author": "smc",
+   "license": "ISC",
+   "bugs": {
+     "url": "https://github.com/seanway28/14.TechUpBlog/issues"
+   },
+   "homepage": "https://github.com/seanway28/14.TechUpBlog#readme"
+ }
