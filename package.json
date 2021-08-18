@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/seanway28/14.TechUpBlog/issues"
   },
-  "homepage": "https://github.com/seanway28/14.TechUpBlog#readme"
+  "homepage": "https://github.com/seanway28/14.TechUpBlog#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
 }
