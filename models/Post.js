@@ -1,4 +1,4 @@
-const init = require('connect-session-sequelize');
+
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
