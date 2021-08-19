@@ -4,7 +4,7 @@ const { Post, User, Vote, Comment } = require('../../models');
 
 // Get All Posts
 
-outer.get('/', (req, res) => {
+router.get('/', (req, res) => {
     console.log('=======================');
     Post.findAll({
         attributes: ['id', 'post_url', 'title', 'created_at', [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']],
@@ -91,8 +91,8 @@ outer.get('/', (req, res) => {
       });
   });
 
-    // Updaate Post
-    outer.put('/:id'), (req, res) => {
+    // Update Post
+    router.put('/:id'), (req, res) => {
         Post.updatedPostData(
             {
                 title: req.body.title

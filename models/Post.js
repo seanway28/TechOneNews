@@ -22,7 +22,7 @@ class Post extends Model {
     // Field Columns for Post Model
 
 
-    Post/init(
+    Post.init(
         {
             id: {
             type: DataTypes.INTEGER,

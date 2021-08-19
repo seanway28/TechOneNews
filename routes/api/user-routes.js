@@ -73,7 +73,7 @@ router.post('/', (req, res) => {
 });
 
 //PUT / API / users / 1
-router.put('/', (res, req, res) => {
+router.put('/', (res, req) => {
     // Expects {username: 'Lernantino, email : 'lernatino@gmail.com'. password: 'password12345')
 
     //If rq.bosy has exact ley/value pairs to match the model, you can just use 'req.body' instead

@@ -11,15 +11,15 @@ Post.belongsTo(User, {
     foreignKey: 'user_id',
 });
 
-User.belongsToMany(Post, {
-    foreignKey: Vote,
-    as: 'voted_post',
-    foreignKey: 'post_id'
-});
+// User.belongsToMany(Post, {
+//     foreignKey: Vote,
+//     as: 'voted_post',
+//     foreignKey: 'post_id'
+// });
 
-Vote.belongsToMany(User, {
-    foreignKey: 'user_id'
-});
+// Vote.belongsToMany(User, {
+//     foreignKey: 'user_id'
+// });
 
 Vote.belongsTo(Post, {
     foreignKey: 'post_id'
