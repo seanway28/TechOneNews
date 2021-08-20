@@ -13,6 +13,9 @@ router.use('/comments', commentRoutes);
 //module.exports = router;
 ////////////////////////////////////////////////////////////////////
 
+router.get('/', (req, res) => {
+    res.send("Hello Friend")
+})
 
 router.use((req, res) => {
     res.status(404).end();
