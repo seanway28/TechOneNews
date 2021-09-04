@@ -1,1 +1,1 @@
-# czarpractice
+# Tech One News
